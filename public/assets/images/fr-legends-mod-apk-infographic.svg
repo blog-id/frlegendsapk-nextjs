@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="620" viewBox="0 0 1140 620" role="img" aria-labelledby="infographic-title infographic-desc">
+  <title id="infographic-title">FR Legends Mod APK at a glance</title>
+  <desc id="infographic-desc">Infographic summarizing the FR Legends Mod APK: unlimited money, all cars unlocked, all tracks unlocked, ad-free gameplay, a mod menu, and a free download.</desc>
+
+  <rect width="1140" height="620" rx="16" fill="#FFFFFF"/>
+
+  <text x="60" y="70" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="3" fill="#D64526">FR LEGENDS MOD APK</text>
+  <text x="60" y="116" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="36" font-weight="800" fill="#241F18">At a Glance</text>
+  <text x="60" y="150" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="500" fill="#5C5347">What the unlocked build includes — everything in one place.</text>
+
+  <rect x="930" y="44" width="150" height="44" rx="22" fill="#D64526"/>
+  <text x="1005" y="67" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="800" text-anchor="middle" dominant-baseline="central" fill="#FFFFFF">v0.4.7</text>
+
+  <g>
+    <rect x="40" y="190" width="340" height="190" rx="14" fill="#FAF3E6" stroke="#DDD0B8" stroke-width="1.5"/>
+    <circle cx="100" cy="250" r="26" fill="#D64526" fill-opacity="0.12"/>
+    <text x="100" y="250" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle" dominant-baseline="central" fill="#D64526">$</text>
+    <text x="140" y="238" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="21" font-weight="700" fill="#241F18">Unlimited Money</text>
+    <text x="140" y="268" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="500" fill="#5C5347">No more currency grind</text>
+  </g>
+
+  <g>
+    <rect x="400" y="190" width="340" height="190" rx="14" fill="#FAF3E6" stroke="#DDD0B8" stroke-width="1.5"/>
+    <circle cx="460" cy="250" r="26" fill="#D64526" fill-opacity="0.12"/>
+    <path d="M442 242l4-9h14l4 9" fill="none" stroke="#D64526" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="434" y="242" width="38" height="12" rx="4" fill="none" stroke="#D64526" stroke-width="3"/>
+    <circle cx="444" cy="254" r="4" fill="#D64526"/>
+    <circle cx="462" cy="254" r="4" fill="#D64526"/>
+    <text x="500" y="238" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="21" font-weight="700" fill="#241F18">All Cars Unlocked</text>
+    <text x="500" y="268" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="500" fill="#5C5347">AE86, Supra, RX-7 &amp; more</text>
+  </g>
+
+  <g>
+    <rect x="760" y="190" width="340" height="190" rx="14" fill="#FAF3E6" stroke="#DDD0B8" stroke-width="1.5"/>
+    <circle cx="820" cy="250" r="26" fill="#D64526" fill-opacity="0.12"/>
+    <path d="M812 226v28" fill="none" stroke="#D64526" stroke-width="3" stroke-linecap="round"/>
+    <path d="M812 226h20l-4 8 4 8h-20" fill="none" stroke="#D64526" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M804 254h16" fill="none" stroke="#D64526" stroke-width="3" stroke-linecap="round"/>
+    <text x="860" y="238" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="21" font-weight="700" fill="#241F18">All Tracks Unlocked</text>
+    <text x="860" y="268" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="500" fill="#5C5347">Every course from the start</text>
+  </g>
+
+  <g>
+    <rect x="40" y="400" width="340" height="190" rx="14" fill="#FAF3E6" stroke="#DDD0B8" stroke-width="1.5"/>
+    <circle cx="100" cy="460" r="26" fill="#D64526" fill-opacity="0.12"/>
+    <rect x="74" y="450" width="8" height="20" rx="2" fill="none" stroke="#D64526" stroke-width="3"/>
+    <path d="M82 452l12-8v32l-12-8" fill="none" stroke="#D64526" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M100 444l-12 32" fill="none" stroke="#D64526" stroke-width="3" stroke-linecap="round"/>
+    <text x="140" y="448" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="21" font-weight="700" fill="#241F18">Ad-Free Gameplay</text>
+    <text x="140" y="478" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="500" fill="#5C5347">No ad interruptions</text>
+  </g>
+
+  <g>
+    <rect x="400" y="400" width="340" height="190" rx="14" fill="#FAF3E6" stroke="#DDD0B8" stroke-width="1.5"/>
+    <circle cx="460" cy="460" r="26" fill="#D64526" fill-opacity="0.12"/>
+    <line x1="438" y1="450" x2="482" y2="450" stroke="#D64526" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="456" cy="450" r="5" fill="#D64526"/>
+    <line x1="438" y1="460" x2="482" y2="460" stroke="#D64526" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="472" cy="460" r="5" fill="#D64526"/>
+    <line x1="438" y1="470" x2="482" y2="470" stroke="#D64526" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="448" cy="470" r="5" fill="#D64526"/>
+    <text x="500" y="448" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="21" font-weight="700" fill="#241F18">Mod Menu</text>
+    <text x="500" y="478" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="500" fill="#5C5347">Toggle money, cars &amp; tracks</text>
+  </g>
+
+  <g>
+    <rect x="760" y="400" width="340" height="190" rx="14" fill="#FAF3E6" stroke="#DDD0B8" stroke-width="1.5"/>
+    <circle cx="820" cy="460" r="26" fill="#D64526" fill-opacity="0.12"/>
+    <path d="M820 438v22" fill="none" stroke="#D64526" stroke-width="3" stroke-linecap="round"/>
+    <path d="M810 450l10 10 10-10" fill="none" stroke="#D64526" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M804 470h32" fill="none" stroke="#D64526" stroke-width="3" stroke-linecap="round"/>
+    <path d="M808 476h8" fill="none" stroke="#D64526" stroke-width="3" stroke-linecap="round"/>
+    <path d="M824 476h8" fill="none" stroke="#D64526" stroke-width="3" stroke-linecap="round"/>
+    <text x="860" y="448" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="21" font-weight="700" fill="#241F18">Free Download</text>
+    <text x="860" y="478" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="500" fill="#5C5347">~147 MB · Android 6.0+</text>
+  </g>
+</svg>
