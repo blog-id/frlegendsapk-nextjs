@@ -31,6 +31,9 @@ export const metadata: Metadata = {
     ],
     apple: [{ url: "/assets/icons/apple-touch-icon.png" }],
   },
+  other: {
+    "google-adsense-account": "ca-pub-5037261915250191",
+  },
 };
 
 export const viewport: Viewport = {
