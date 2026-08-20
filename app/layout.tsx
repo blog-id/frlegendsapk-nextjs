@@ -5,7 +5,6 @@ import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import { LOGO, SITE_DESCRIPTION, SITE_NAME, SITE_URL, SOCIAL } from "@/lib/site";
 import "./globals.css";
-<html lang="en">
 
 const inter = Inter({
   subsets: ["latin"],
