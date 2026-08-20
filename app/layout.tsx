@@ -5,6 +5,15 @@ import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import { LOGO, SITE_DESCRIPTION, SITE_NAME, SITE_URL, SOCIAL } from "@/lib/site";
 import "./globals.css";
+<html lang="en">
+  <head>
+    <meta
+      name="google-adsense-account"
+      content="ca-pub-5037261915250191"
+    />
+  </head>
+  <body>{children}</body>
+</html>
 
 const inter = Inter({
   subsets: ["latin"],
