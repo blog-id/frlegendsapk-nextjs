@@ -23,8 +23,8 @@ export default function HomePage() {
       <section className="hero">
         <div className="container hero-grid">
           <div className="hero-card">
-            <span className="kicker">Latest version &middot; v0.4.7</span>
-            <h1>FR Legends Mod APK V0.4.7 Download (Unlimited Money &amp; New Cars)</h1>
+            <span className="kicker">Latest version &middot; v0.4.8</span>
+            <h1>FR Legends Mod APK V0.4.8 Download (Unlimited Money &amp; New Cars)</h1>
             <p className="lede">
               If you&apos;ve searched for FR Legends Mod APK, you are probably
               looking for a way to enjoy the game without spending hours
@@ -49,7 +49,7 @@ export default function HomePage() {
             </p>
             <div className="stat-badges" role="list" aria-label="Download information">
               <span className="stat-badge" role="listitem">
-                Version <strong>0.4.7</strong>
+                Version <strong>0.4.8</strong>
               </span>
               <span className="stat-badge" role="listitem">
                 Size <strong>~147 MB</strong>
@@ -681,12 +681,19 @@ export default function HomePage() {
               <tbody>
                 <tr>
                   <td>
-                    <strong>0.4.7</strong>
+                    <strong>0.4.8</strong>
                   </td>
                   <td>
                     <strong>Current / Latest</strong>
                   </td>
                   <td>Current version used by this homepage</td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>0.4.7</strong>
+                  </td>
+                  <td>Previous</td>
+                  <td>August 2026 build</td>
                 </tr>
                 <tr>
                   <td>
@@ -713,7 +720,7 @@ export default function HomePage() {
             </table>
           </div>
           <p>
-            The current homepage title uses <strong>V0.4.7</strong> as the
+            The current homepage title uses <strong>V0.4.8</strong> as the
             target version and identifies it as the latest version for this
             site.
           </p>

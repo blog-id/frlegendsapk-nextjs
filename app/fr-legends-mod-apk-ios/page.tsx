@@ -14,7 +14,7 @@ export default function FrLegendsModApkIosPage() {
       layout="sections"
       title="FR Legends Mod Apk on iOS, What Actually Works"
       lede="Short version: an apk cannot be installed on a stock iPhone or iPad. But &quot;not on iOS&quot; doesn't mean &quot;not for you&quot;, here's exactly what works, what doesn't, and the risks you should know about before trying any workaround."
-      metaLine="Last updated: <strong>August 16, 2026</strong>, Version <strong>0.4.7</strong>"
+      metaLine="Last updated: <strong>September 10, 2026</strong>, Version <strong>0.4.8</strong>"
       actions={
         <>
           <a

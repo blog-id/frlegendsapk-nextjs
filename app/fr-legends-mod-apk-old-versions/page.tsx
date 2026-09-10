@@ -12,8 +12,8 @@ export default function FrLegendsModApkOldVersionsPage() {
       slug="fr-legends-mod-apk-old-versions"
       layout="sections"
       title="FR Legends Mod Apk, Old Versions Archive"
-      lede="Every build we've ever published, kept online permanently. Prefer how 0.4.6 handled transitions? Want the exact version you grew up with? It's here, scroll, pick, install."
-      metaLine="Archive updated: <strong>August 16, 2026</strong>"
+      lede="Every build we've ever published, kept online permanently. Prefer how 0.4.7 handled transitions? Want the exact version you grew up with? It's here, scroll, pick, install."
+      metaLine="Archive updated: <strong>September 10, 2026</strong>"
       crumbs={[{ label: "Home", href: "/" }, { label: "Old Versions" }]}
     >
       <section className="section">
@@ -42,16 +42,35 @@ export default function FrLegendsModApkOldVersionsPage() {
               <tbody>
                 <tr>
                   <td>
-                    <strong>0.4.7</strong>{" "}
+                    <strong>0.4.8</strong>{" "}
                     <span className="badge badge-safe">Current</span>
+                  </td>
+                  <td>Sep 2026</td>
+                  <td>
+                    Latest balance adjustments, new livery editor tools, engine
+                    sound refinements, and stability fixes
+                  </td>
+                  <td>
+                    <Link href="/download/">Latest build &rarr;</Link>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>0.4.7</strong>
                   </td>
                   <td>Aug 2026</td>
                   <td>
-                    Latest balance changes, Battle Mode fixes, low-end
-                    performance improvements
+                    Balance changes, Battle Mode fixes, low-end performance
+                    improvements
                   </td>
                   <td>
-                    <Link href="/download/">Latest build â†’</Link>
+                    <a
+                      href="https://github.com/frlegendsmodapk/latest-version/releases/download/download/fr-legends-mod-0.4.7.apk"
+                      rel="noopener"
+                      download
+                    >
+                      fr-legends-mod-0.4.7.apk
+                    </a>
                   </td>
                 </tr>
                 <tr>

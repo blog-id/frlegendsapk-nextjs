@@ -1,7 +1,7 @@
 export const SITE_NAME = "FR Legends Mod Apk";
 export const SITE_URL = "https://frlegendmodapk.com";
 export const SITE_DESCRIPTION =
-  "Download FR Legends Mod APK V0.4.7 free with unlimited money, unlocked cars and tracks, ad-free gameplay and mod menu options. Latest 2026 version.";
+  "Download FR Legends Mod APK V0.4.8 free with unlimited money, unlocked cars and tracks, ad-free gameplay and mod menu options. Latest 2026 version.";
 export const OG_IMAGE = `${SITE_URL}/assets/images/og-image.jpg`;
 export const LOGO = `${SITE_URL}/assets/icons/fr-legends-logo.png`;
 export const SOCIAL = {
@@ -51,7 +51,7 @@ export const FOOTER_COPYRIGHT =
   "frlegendmodapk.com \u00b7 All rights reserved. FR Legends is a trademark of Twin Turbo Tech. This site is not affiliated with or endorsed by the game's developers.";
 
 export const APK_DOWNLOAD_URL =
-  "https://github.com/frlegendsmodapk/latest-version/releases/download/download/fr-legends-mod-0.4.7.apk";
+  "https://github.com/frlegendsmodapk/latest-version/releases/download/download/fr-legends-mod-0.4.8.apk";
 
 /** Map a legacy relative .html href to its clean Next.js URL. */
 export function cleanUrl(href: string): string {

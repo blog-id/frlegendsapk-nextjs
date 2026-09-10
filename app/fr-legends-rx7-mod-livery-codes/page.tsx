@@ -14,7 +14,7 @@ export default function FrLegendsRx7ModLiveryCodesPage() {
       layout="sections"
       title="FR Legends RX-7, Mod, Livery Codes & Drift Setup"
       lede="The FD3S RX-7 is the technical-track specialist of the FR Legends garage, light, revvy, and endlessly satisfying when you learn to keep the rotary singing."
-      metaLine="Last updated: <strong>August 16, 2026</strong>, Version <strong>0.4.7</strong>"
+      metaLine="Last updated: <strong>September 10, 2026</strong>, Version <strong>0.4.8</strong>"
       asSection={false}
     >
       <section className="section">

@@ -14,7 +14,7 @@ export default function FrLegendsModApkForPcPage() {
       layout="sections"
       title="FR Legends Mod Apk for PC, Windows Install Guide"
       lede="FR Legends was built for phones, but nothing stops you from sliding on a big monitor. This guide shows you how to run the FR Legends Mod Apk on Windows 7, 10, or 11 using BlueStacks or Nox, from first install to full drift setup."
-      metaLine="Last updated: <strong>August 16, 2026</strong>, Version <strong>0.4.7</strong>"
+      metaLine="Last updated: <strong>September 10, 2026</strong>, Version <strong>0.4.8</strong>"
       actions={
         <>
           <a
@@ -472,7 +472,7 @@ export default function FrLegendsModApkForPcPage() {
               emulator, drag the apk in, and you're done. You get unlimited
               money, every car and track unlocked, no ads, and a toggleable mod
               menu, on a screen big enough to actually read the drift line.
-              Version <strong>0.4.7</strong> is current, and the setup takes
+              Version <strong>0.4.8</strong> is current, and the setup takes
               minutes.
             </p>
             <p>

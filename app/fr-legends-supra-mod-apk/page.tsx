@@ -14,7 +14,7 @@ export default function FrLegendsSupraModApkPage() {
       layout="sections"
       title="FR Legends Supra Mod, Codes, Tuning & Specs"
       lede="The MK4 Supra is the most requested car in the FR Legends community. Here is how the mod puts it in your garage from day one, plus the codes and tuning that make it drift like the icon it is."
-      metaLine="Last updated: <strong>August 16, 2026</strong>, Version <strong>0.4.7</strong>"
+      metaLine="Last updated: <strong>September 10, 2026</strong>, Version <strong>0.4.8</strong>"
       asSection={false}
     >
       <section className="section">

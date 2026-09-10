@@ -35,7 +35,7 @@ export default function DownloadPage() {
         <div className="container">
           <div className="download-card">
             <span className="kicker">Latest release</span>
-            <h1>Download FR Legends Mod Apk v0.4.7</h1>
+            <h1>Download FR Legends Mod Apk v0.4.8</h1>
             <p
               className="lede"
               style={{ color: "var(--color-text-muted)", marginBottom: 0 }}
@@ -46,13 +46,13 @@ export default function DownloadPage() {
             </p>
             <div className="download-meta">
               <div>
-                <strong>Version</strong>0.4.7
+                <strong>Version</strong>0.4.8
               </div>
               <div>
                 <strong>File size</strong>~147 MB
               </div>
               <div>
-                <strong>Last updated</strong>August 16, 2026
+                <strong>Last updated</strong>September 10, 2026
               </div>
               <div>
                 <strong>Compatibility</strong>Android 4.4+

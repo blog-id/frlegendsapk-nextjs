@@ -14,7 +14,7 @@ export default function FrLegendsCarsListPage() {
       layout="sections"
       title="FR Legends Cars List, The Full Roster"
       lede="Over 30 cars, from the humble AE86 to the premium 911 GT3. Here is the complete roster, how each car is unlocked in the original game, and what the mod changes about all of it."
-      metaLine="Last updated: <strong>August 16, 2026</strong>, Version <strong>0.4.7</strong>"
+      metaLine="Last updated: <strong>September 10, 2026</strong>, Version <strong>0.4.8</strong>"
       asSection={false}
     >
       <section className="section">

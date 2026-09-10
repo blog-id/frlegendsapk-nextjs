@@ -14,7 +14,7 @@ export default function FrLegendsBmwDriftModsPage() {
       layout="sections"
       title="FR Legends BMW Mods, E30 & M3"
       lede="The boxy E30 and the sharper M3 are the European soul of the FR Legends garage. Here is how the mod puts both in your driveway, plus the codes and setups that suit each one."
-      metaLine="Last updated: <strong>August 16, 2026</strong>, Version <strong>0.4.7</strong>"
+      metaLine="Last updated: <strong>September 10, 2026</strong>, Version <strong>0.4.8</strong>"
       asSection={false}
     >
       <section className="section">

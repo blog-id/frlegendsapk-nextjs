@@ -136,7 +136,7 @@ export const POSTS: Post[] = [
     date: "Aug 16, 2026",
     title: "FR Legends Update Log, New Cars & Versions",
     excerpt:
-      "Every version from 0.4.4 to 0.4.7 with release notes, plus how mod updates work and why old builds stay online forever.",
+      "Every version from 0.4.4 to 0.4.8 with release notes, plus how mod updates work and why old builds stay online forever.",
     image: "/assets/images/fr-legends-nissan-skyline-r32.jpg",
     imageAlt: "Nissan Skyline R32 in the FR Legends garage",
   },

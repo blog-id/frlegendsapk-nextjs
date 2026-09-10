@@ -9,7 +9,7 @@
   <text x="60" y="150" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="500" fill="#5C5347">What the unlocked build includes — everything in one place.</text>
 
   <rect x="930" y="44" width="150" height="44" rx="22" fill="#D64526"/>
-  <text x="1005" y="67" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="800" text-anchor="middle" dominant-baseline="central" fill="#FFFFFF">v0.4.7</text>
+  <text x="1005" y="67" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="800" text-anchor="middle" dominant-baseline="central" fill="#FFFFFF">v0.4.8</text>
 
   <g>
     <rect x="40" y="190" width="340" height="190" rx="14" fill="#FAF3E6" stroke="#DDD0B8" stroke-width="1.5"/>

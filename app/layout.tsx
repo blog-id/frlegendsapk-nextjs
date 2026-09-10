@@ -22,7 +22,17 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  title: {
+    default: SITE_NAME,
+    template: `%s | ${SITE_NAME}`,
+  },
   description: SITE_DESCRIPTION,
+  openGraph: {
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+    url: SITE_URL,
+    siteName: SITE_NAME,
+  },
   icons: {
     icon: [
       { url: "/assets/icons/favicon.ico", sizes: "32x32" },

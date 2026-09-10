@@ -128,6 +128,15 @@ export default function FrLegendsNewCarsUpdateLogPage() {
           </thead>
           <tbody>
             <tr>
+              <td>0.4.8</td>
+              <td>September 2026</td>
+              <td>
+                Balance adjustments across all vehicle tiers, new livery layers
+                and customization tools, engine sound refinements, stability
+                optimizations, and crash fixes.
+              </td>
+            </tr>
+            <tr>
               <td>0.4.7</td>
               <td>August 2026</td>
               <td>
@@ -285,7 +294,8 @@ export default function FrLegendsNewCarsUpdateLogPage() {
       <h3>When was the R32 added to FR Legends?</h3>
       <p>
         The Nissan Skyline R32 joined the roster in the August 2026 update,
-        version 0.4.7, alongside the other five new cars.
+        version 0.4.7, alongside the other five new cars, and remains fully
+        unlocked in version 0.4.8.
       </p>
       <h3>Will my save work if I switch from the mod back to the official game?</h3>
       <p>

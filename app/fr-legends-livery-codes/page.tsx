@@ -14,7 +14,7 @@ export default function FrLegendsLiveryCodesPage() {
       layout="sections"
       title="FR Legends Livery Codes, The Library"
       lede="Body codes, window codes, and the community designs that make every garage look like a car show. Browse the library, learn the paste-and-go method, and turn your build into something worth a second look in Multiplayer lobbies."
-      metaLine="Last updated: <strong>August 16, 2026</strong>, Version <strong>0.4.7</strong>"
+      metaLine="Last updated: <strong>September 10, 2026</strong>, Version <strong>0.4.8</strong>"
       asSection={false}
     >
       <section className="section">
