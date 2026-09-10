@@ -38,6 +38,7 @@ export const FOOTER_GUIDES = [
 export const FOOTER_LEGAL = [
   { href: "/dmca/", label: "DMCA" },
   { href: "/about-us/", label: "About Us" },
+  { href: "/editorial-policy/", label: "Editorial Policy" },
   { href: "/terms-conditions/", label: "Terms & Conditions" },
   { href: "/disclaimer/", label: "Disclaimer" },
   { href: "/privacy-policy/", label: "Privacy Policy" },

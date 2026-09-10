@@ -32,6 +32,12 @@ export const LEGAL_PAGES: Record<string, PageMeta> = {
     description: "DMCA notice and takedown procedure for content hosted on frlegendmodapk.com.",
     jsonLd: [{"@context":"https://schema.org","@type":"Organization","name":"FR Legends Mod Apk","url":"https://frlegendmodapk.com/","logo":"https://frlegendmodapk.com/assets/icons/fr-legends-logo.png","sameAs":["https://www.tiktok.com/@frlegends467","https://www.youtube.com/@frlegends467"]},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://frlegendmodapk.com/"},{"@type":"ListItem","position":2,"name":"DMCA","item":"https://frlegendmodapk.com/dmca/"}]}],
   },
+  "editorial-policy": {
+    slug: "editorial-policy",
+    title: "Editorial Policy - FR Legends Mod Apk",
+    description: "Our editorial standards, verification methodology, update schedule, corrections policy, and commitment to accurate FR Legends guides and resources.",
+    jsonLd: [{"@context":"https://schema.org","@type":"Organization","name":"FR Legends Mod Apk","url":"https://frlegendmodapk.com/","logo":"https://frlegendmodapk.com/assets/icons/fr-legends-logo.png","sameAs":["https://www.tiktok.com/@frlegends467","https://www.youtube.com/@frlegends467"]},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://frlegendmodapk.com/"},{"@type":"ListItem","position":2,"name":"Editorial Policy","item":"https://frlegendmodapk.com/editorial-policy/"}]}],
+  },
   "privacy-policy": {
     slug: "privacy-policy",
     title: "Privacy Policy - FR Legends Mod Apk",
