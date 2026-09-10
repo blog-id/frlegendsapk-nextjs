@@ -51,7 +51,7 @@ export const FOOTER_COPYRIGHT =
   "frlegendmodapk.com \u00b7 All rights reserved. FR Legends is a trademark of Twin Turbo Tech. This site is not affiliated with or endorsed by the game's developers.";
 
 export const APK_DOWNLOAD_URL =
-  "https://github.com/frlegendsmodapk/latest-version/releases/download/download/fr-legends-mod-0.4.8.apk";
+  "https://github.com/blog-id/frlegendsapk-nextjs/releases/download/v0.4.8/fr-legends-0.4.8.apk";
 
 /** Map a legacy relative .html href to its clean Next.js URL. */
 export function cleanUrl(href: string): string {
