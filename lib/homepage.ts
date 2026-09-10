@@ -11,7 +11,7 @@ export const SOFTWARE_JSON_LD: object = {
   "applicationCategory": "GameApplication",
   "applicationSubCategory": "Racing Game",
   "softwareVersion": "0.4.8",
-  "fileSize": "147MB",
+  "fileSize": "140MB",
   "downloadUrl": "https://frlegendmodapk.com/download/",
   "featureList":
     "Unlimited money, all cars unlocked, free purchases, custom liveries, unchanged drift physics, track unlocks",

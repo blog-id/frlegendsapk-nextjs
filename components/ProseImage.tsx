@@ -11,6 +11,8 @@ type ProseImageProps = {
   style?: CSSProperties;
   sizes?: string;
   caption?: ReactNode;
+  figureClassName?: string;
+  figureStyle?: CSSProperties;
 };
 
 export default function ProseImage({
@@ -23,6 +25,8 @@ export default function ProseImage({
   style,
   sizes,
   caption,
+  figureClassName,
+  figureStyle,
 }: ProseImageProps) {
   const img = (
     <Image
@@ -40,7 +44,10 @@ export default function ProseImage({
 
   if (caption) {
     return (
-      <figure style={{ margin: "1.75rem 0" }}>
+      <figure
+        className={figureClassName}
+        style={{ margin: "1.75rem 0", ...figureStyle }}
+      >
         {img}
         <figcaption
           style={{

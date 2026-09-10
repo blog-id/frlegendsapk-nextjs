@@ -49,7 +49,7 @@ export default function DownloadPage() {
                 <strong>Version</strong>0.4.8
               </div>
               <div>
-                <strong>File size</strong>~147 MB
+                <strong>File size</strong>140 MB
               </div>
               <div>
                 <strong>Last updated</strong>September 10, 2026

@@ -47,7 +47,7 @@ export default function HomePage() {
             <h1>FR Legends Mod APK Download (Unlimited Money, All Cars Unlocked)</h1>
 
             {/* Bylines & Metadata Verification */}
-            <div className="meta-line" style={{ marginTop: "0.75rem", marginBottom: "1.25rem" }}>
+            <div className="meta-line">
               <span>
                 By <strong>Rizky Pratama</strong>
               </span>
@@ -99,7 +99,7 @@ export default function HomePage() {
                 Version <strong>0.4.8</strong>
               </span>
               <span className="stat-badge" role="listitem">
-                Size <strong>~120&ndash;200 MB</strong>
+                Size <strong>140 MB</strong>
               </span>
               <span className="stat-badge" role="listitem">
                 OS <strong>Android 5.1+</strong>
@@ -114,9 +114,10 @@ export default function HomePage() {
             <ProseImage
               src="/assets/images/fr-legends-drift-racing-gameplay.jpg"
               alt="FR Legends title screen screenshot showing a drift car on track"
-              caption="In-game screenshot of FR Legends."
+              caption="FR Legends title screen and in-game drift gameplay."
               width={1200}
               height={675}
+              figureStyle={{ margin: 0 }}
               priority
             />
           </div>
@@ -202,7 +203,7 @@ export default function HomePage() {
                   </tr>
                   <tr>
                     <td><strong>Approximate Size</strong></td>
-                    <td>120&ndash;200 MB depending on source</td>
+                    <td>140 MB</td>
                   </tr>
                 </tbody>
               </table>
@@ -518,7 +519,7 @@ export default function HomePage() {
                     </tr>
                     <tr>
                       <td><strong>Approximate file size</strong></td>
-                      <td>Roughly 120&ndash;200 MB depending on the source and build</td>
+                      <td>140 MB</td>
                     </tr>
                     <tr>
                       <td><strong>Format</strong></td>
