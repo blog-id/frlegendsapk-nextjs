@@ -10,6 +10,7 @@ type ProseImageProps = {
   className?: string;
   style?: CSSProperties;
   sizes?: string;
+  caption?: ReactNode;
 };
 
 export default function ProseImage({
@@ -21,8 +22,9 @@ export default function ProseImage({
   className,
   style,
   sizes,
+  caption,
 }: ProseImageProps) {
-  return (
+  const img = (
     <Image
       src={src}
       alt={alt}
@@ -35,4 +37,24 @@ export default function ProseImage({
       sizes={sizes ?? "(min-width: 880px) 880px, 100vw"}
     />
   );
+
+  if (caption) {
+    return (
+      <figure style={{ margin: "1.75rem 0" }}>
+        {img}
+        <figcaption
+          style={{
+            marginTop: "0.5rem",
+            fontSize: "0.875rem",
+            color: "var(--color-text-muted, #64748b)",
+            textAlign: "center",
+          }}
+        >
+          {caption}
+        </figcaption>
+      </figure>
+    );
+  }
+
+  return img;
 }
