@@ -40,6 +40,9 @@ export const metadata: Metadata = {
     ],
     apple: [{ url: "/assets/icons/apple-touch-icon.png" }],
   },
+  verification: {
+    google: "8ab4zqcqKMzptuXt7HOZMnTZrLISWrMkCriEVYTcPAw",
+  },
   other: {
     "google-adsense-account": "ca-pub-5037261915250191",
   },
@@ -76,6 +79,23 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${inter.variable} ${sora.variable}`}>
+      <head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-6Z9V4BC4PL"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-6Z9V4BC4PL');
+            `,
+          }}
+        />
+      </head>
       <body>
         <JsonLd data={organizationJsonLd} />
         <JsonLd data={websiteJsonLd} />
