@@ -38,10 +38,10 @@ export default function FrLegendsBattleModeGuidePage() {
       </p>
       <h3>Differential and tires</h3>
       <p>
-        Set the rear differential loose enough that the inside rear wheel spins
-        up early, which makes angle easy to reach and hold. Stiff rear tires
-        give the grip you need to break free at speed, while soft front tires
-        keep turn-in sharp. Exact values are in the{" "}
+        Start from a setup that lets the rear rotate without making the car
+        difficult to catch. Make small differential, tire and alignment
+        adjustments one at a time, then compare the same corner again. The
+        best balance depends on the car, power level and driving inputs. See the{" "}
         <Link href="/fr-legends-best-drift-settings-tuning-guide/">
           best drift settings and tuning guide
         </Link>
@@ -70,27 +70,29 @@ export default function FrLegendsBattleModeGuidePage() {
       <h2>How to win: lead and chase strategy</h2>
       <h3>When to be aggressive</h3>
       <p>
-        Aggression wins in the lead car. If you can hold more angle than the
-        chaser can copy, you win every corner. Push the entry, clip the apex at
-        speed, and use the fast sections to build a gap the chaser cannot close
-        without risking their own run. Be aggressive on tracks you know; the
-        Touge hairpins reward a driver who attacks the entry.
+        In the lead car, prioritize a clear and repeatable line. Enter at a
+        speed you can manage, initiate before the corner becomes difficult to
+        recover from, and keep transitions smooth. A sudden line change or
+        inconsistent throttle makes the run harder for both drivers to read.
+        Build confidence on tracks you know before trying more aggressive
+        entries.
       </p>
       <h3>When to stay clean</h3>
       <p>
-        In the chase car, polish beats flash. A slightly shallower angle that
-        keeps you in the leader&apos;s mirrors scores better than a huge angle
-        ten metres back. Match the leader&apos;s line and save your heroics
-        for corners where the leader visibly struggles. If you are ahead after
-        the first round, a clean second run protects your lead; only chase
-        maximum points when you are behind.
+        In the chase car, focus first on following the leader's path and
+        keeping a controlled, consistent gap. Avoid making a late correction
+        that causes contact or takes you away from the line. Smooth throttle
+        and steering inputs help you stay close while retaining enough room
+        to react when the lead car changes speed or angle.
       </p>
 
       <h2>FAQ</h2>
       <h3>What is a good score per round?</h3>
       <p>
-        It depends on the track, but as a rule of thumb, over 8,000 on a
-        standard circuit is a strong round and 10,000-plus is tournament level.
+        There is no single target that applies to every track and game
+        version. Compare your run with the in-game score breakdown and look
+        for consistency in line, angle and proximity rather than chasing
+        one fixed number.
       </p>
       <h3>Do cars need to be upgraded to battle?</h3>
       <p>
@@ -100,8 +102,8 @@ export default function FrLegendsBattleModeGuidePage() {
       </p>
       <h3>How long is a battle round?</h3>
       <p>
-        Each run lasts around a minute on most tracks. An entire battle rarely
-        takes more than five minutes.
+        Run duration can depend on the selected course and mode. Check the
+        timer displayed in the game before each battle.
       </p>
 
       
