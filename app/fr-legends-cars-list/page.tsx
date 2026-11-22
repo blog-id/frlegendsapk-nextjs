@@ -13,8 +13,8 @@ export default function FrLegendsCarsListPage() {
       slug="fr-legends-cars-list"
       layout="sections"
       title="FR Legends Cars List, The Full Roster"
-      lede="Over 30 cars, from the humble AE86 to the premium 911 GT3. Here is the complete roster, how each car is unlocked in the original game, and what the mod changes about all of it."
-      metaLine="Last updated: <strong>September 10, 2026</strong>, Version <strong>0.4.8</strong>"
+      lede="Explore the FR Legends car roster, learn how vehicles are unlocked through normal progression, and compare the handling traits that may help you choose a car."
+      metaLine="Guide reviewed: <strong>November 23, 2026</strong>"
       asSection={false}
     >
       <section className="section">
@@ -35,122 +35,125 @@ export default function FrLegendsCarsListPage() {
           <div className="table-wrap">
             <table>
               <caption className="visually-hidden">
-                The full FR Legends car roster with class, original unlock
-                method, and mod status
+                FR Legends cars, their vehicle class and the normal unlock method
               </caption>
               <thead>
-                
+                <tr>
+                  <th scope="col">Car</th>
+                  <th scope="col">Class</th>
+                  <th scope="col">Unlock method</th>
+                </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>Toyota AE86</td>
                   <td>Compact classic</td>
                   <td>Coins</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>Toyota Supra (MK4)</td>
                   <td>Sports icon</td>
                   <td>Coins</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 
                 <tr>
                   <td>Toyota MR2</td>
                   <td>Mid-engine compact</td>
                   <td>Coins</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>Nissan Silvia S13</td>
                   <td>Tuner</td>
                   <td>Coins</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>Nissan Silvia S14</td>
                   <td>Tuner</td>
                   <td>Coins</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>Nissan Silvia S15</td>
                   <td>Tuner flagship</td>
                   <td>Coins</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>Nissan 180SX</td>
                   <td>Tuner</td>
                   <td>Coins</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>Nissan Skyline GT-R (R32)</td>
                   <td>AWD legend</td>
                   <td>Career progress</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>Nissan Fairlady Z</td>
                   <td>Sports</td>
                   <td>Coins</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>Mazda RX-7</td>
                   <td>Rotary sports</td>
                   <td>Coins</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>Mazda Miata</td>
                   <td>Roadster</td>
                   <td>Coins</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>Honda S2000</td>
                   <td>Roadster</td>
                   <td>Coins</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 
                 <tr>
                   <td>Subaru Impreza WRX STI</td>
                   <td>Rally</td>
                   <td>Career progress</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>Mitsubishi Lancer Evolution</td>
                   <td>Rally</td>
                   <td>Career progress</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>BMW E30</td>
                   <td>European classic</td>
                   <td>Coins</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>BMW M3</td>
                   <td>European performance</td>
                   <td>Premium / real money</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>Dodge Challenger</td>
                   <td>Muscle</td>
                   <td>Premium / real money</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
                 <tr>
                   <td>Porsche 911 GT3</td>
                   <td>Premium supercar</td>
                   <td>Premium / real money</td>
-                  <td>Unlocked instantly</td>
+                  
                 </tr>
               </tbody>
             </table>
