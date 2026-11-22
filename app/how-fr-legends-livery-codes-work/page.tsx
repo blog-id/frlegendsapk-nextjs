@@ -140,14 +140,7 @@ export default function HowFrLegendsLiveryCodesWorkPage() {
         </li>
         <li>Curated collections like ours.</li>
       </ul>
-      <p>
-        Popular cars get the most codes. The <Link href="/fr-legends-supra-mod-apk/">Supra</Link>,
-        the <Link href="/fr-legends-rx7-mod-livery-codes/">RX-7</Link>, and the{" "}
-        <Link href="/fr-legends-bmw-drift-mods/">drift BMWs</Link> all have deep
-        libraries of shared designs, and our{" "}
-        <Link href="/fr-legends-cars-list/">full car list</Link> shows which
-        cars are worth collecting codes for.
-      </p>
+      
 
       <h2>How to avoid broken codes</h2>
       <p>
@@ -170,13 +163,7 @@ export default function HowFrLegendsLiveryCodesWorkPage() {
         car name in the source before you paste.
       </p>
       <h3>Game version changes</h3>
-      <p>
-        FR Legends updates can change how codes are stored, and codes from old
-        versions sometimes fail on new builds. If a code worked before an
-        update, look for a newer version in the source. Our{" "}
-        <Link href="/fr-legends-mod-apk-old-versions/">old versions page</Link>{" "}
-        lists earlier releases if you prefer a build you know.
-      </p>
+      
 
       <h2>Codes on mobile and PC emulators</h2>
       <p>
@@ -191,14 +178,7 @@ export default function HowFrLegendsLiveryCodesWorkPage() {
         out for autocorrect, which can quietly change characters.
       </p>
       <h3>On a PC emulator</h3>
-      <p>
-        On an emulator, use Ctrl + C and Ctrl + V, and keep codes in a text file
-        next to the game for fast testing. Our{" "}
-        <Link href="/fr-legends-mod-apk-for-pc/">PC emulator guide</Link> covers
-        setup, and Apple users can check the{" "}
-        <Link href="/fr-legends-mod-apk-ios/">iOS guide</Link> for options
-        there.
-      </p>
+      
 
       <ProseImage
         src="/assets/images/fr-legends-car-selection-menu.jpg"
@@ -250,15 +230,7 @@ export default function HowFrLegendsLiveryCodesWorkPage() {
           </tbody>
         </table>
       </div>
-      <p>
-        If one of these does not apply, it usually means the code was cut off
-        during copying. Grab the full string from the source and try again. The{" "}
-        <Link href="/fr-legends-rx7-mod-livery-codes/">
-          RX-7 livery codes page
-        </Link>{" "}
-        and the <Link href="/fr-legends-supra-mod-apk/">Supra mod page</Link>{" "}
-        both have ready-to-paste designs.
-      </p>
+      
 
       <h2>Common livery code problems</h2>
       <div className="table-wrap">
@@ -324,20 +296,7 @@ export default function HowFrLegendsLiveryCodesWorkPage() {
         design.
       </p>
 
-      <p>
-        That is the full livery code system: text that describes a design,
-        pasted into the right field on the right car. Start with a code you
-        like, test it, edit it, and before long you will be sharing designs of
-        your own. For more to read, browse the{" "}
-        <Link href="/fr-legends-livery-codes/">livery hub</Link>, grab ideas
-        from the{" "}
-        <Link href="/best-anime-jdm-livery-codes/">
-          anime and JDM collection
-        </Link>
-        , or check the <Link href="/fr-legends-bmw-drift-mods/">BMW drift mods</Link>{" "}
-        for new cars to paint. New here? Head back to our{" "}
-        <Link href="/">home page</Link> for a full tour of the site.
-      </p>
+      
     </ArticlePage>
   );
 }
