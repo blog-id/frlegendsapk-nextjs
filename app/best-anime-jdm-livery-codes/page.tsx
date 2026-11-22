@@ -75,12 +75,7 @@ export default function BestAnimeJdmLiveryCodesPage() {
         white or black base, with the team name in English below the kanji.
       </p>
       <h3>Racing stripes and sponsor bars</h3>
-      <p>
-        The final building block is motorsport graphics: diagonal stripes,
-        painted hood scoops, and sponsor bars along the doors. Modern D1GP and
-        Formula D cars combine these with bold gradients, and a good stripe
-        code can transform a plain car into a race build.
-      </p>
+      
 
       <h2>Best cars for anime liveries</h2>
       <p>
@@ -100,10 +95,7 @@ export default function BestAnimeJdmLiveryCodesPage() {
           <strong>Toyota Supra MK4:</strong> the Wangan Midnight hero, with
           enough hood and rear panel space for big kanji art.
         </li>
-        <li>
-          <strong>Nissan Silvia S15:</strong> the modern drift favorite, its
-          sharp lines suit team stripes and sponsor bars.
-        </li>
+        
       </ul>
       <ProseImage
         src="/assets/images/fr-legends-mazda-rx7-fd3s.jpg"
@@ -280,25 +272,6 @@ export default function BestAnimeJdmLiveryCodesPage() {
         .
       </p>
 
-      <h2>Combining livery codes with car mods</h2>
-      <p>
-        Livery codes and car mods work together well: a modded car keeps its
-        original body, so any livery built for that body applies normally, and
-        some mods ship with their own matching codes. The{" "}
-        <Link href="/fr-legends-supra-mod-apk/">Supra mod page</Link> collects
-        MK4 builds with companion liveries, the{" "}
-        <Link href="/fr-legends-rx7-mod-livery-codes/">RX-7 mod page</Link>{" "}
-        focuses on FD3S designs, and BMW players can find E30 and M3 stripe
-        sets on the <Link href="/fr-legends-bmw-drift-mods/">BMW drift mods page</Link>.
-      </p>
-      <p>
-        Codes are stored locally with your save data, so installing the mod on
-        a <Link href="/fr-legends-mod-apk-for-pc/">PC emulator</Link> or an{" "}
-        <Link href="/fr-legends-mod-apk-ios/">iPhone</Link> carries your
-        liveries over with it. Back up the save before experimenting, and grab
-        the latest build from the <Link href="/download/">download page</Link>.
-      </p>
-
       <h2>How to avoid livery code errors</h2>
       <ul>
         <li>
@@ -313,14 +286,7 @@ export default function BestAnimeJdmLiveryCodesPage() {
           <strong>Watch the window layer:</strong> many designs include a
           separate window code, skipping it leaves the glass undecorated.
         </li>
-        <li>
-          <strong>Match the game version:</strong> very old codes can drop
-          layers, so test odd behavior on an{" "}
-          <Link href="/fr-legends-mod-apk-old-versions/">
-            older version of the game
-          </Link>
-          .
-        </li>
+        
         <li>
           <strong>Test before you commit:</strong> paste, preview, then save,
           so a bad code never overwrites a design you like.
@@ -356,19 +322,7 @@ export default function BestAnimeJdmLiveryCodesPage() {
         layers fit together before you try itasha art.
       </p>
 
-      <p>
-        If you enjoyed this collection, the{" "}
-        <Link href="/fr-legends-livery-codes/">full livery code hub</Link> has
-        hundreds of designs beyond anime and JDM themes, and the{" "}
-        <Link href="/fr-legends-cars-list/">cars list</Link> helps you pick
-        your next body. New guides arrive every week on the{" "}
-        <Link href="/blog/">blog</Link>, and the{" "}
-        <Link href="/fr-legends-mod-apk-old-versions/">old versions page</Link>{" "}
-        has the full archive if you need an older game build for testing codes.
-        Start with the livery hub, then come back here for your next paint job,
-        or head to the <Link href="/">homepage</Link> to browse all our FR
-        Legends guides.
-      </p>
+      
     </ArticlePage>
   );
 }
