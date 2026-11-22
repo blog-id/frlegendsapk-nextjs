@@ -46,32 +46,11 @@ export default function FrLegendsControllerSupportPage() {
       </p>
 
       <h2>Official Controller Support Status</h2>
-      <p>
-        FR Legends has supported physical controllers since early versions, and
-        the feature is present in the current release on both the Google Play
-        store and the App Store. The official version is the most reliable:
-        modified builds from third-party sources usually keep the controller
-        code intact, but sideloaded iOS builds are the exception, since
-        controller support can break when the entitlement or framework changes.
-        If you are on an iPhone or iPad, the official App Store release is the
-        safe choice, and our <Link href="/fr-legends-mod-apk-ios/">iOS mod guide</Link>{" "}
-        explains the differences in more detail. On Android, the{" "}
-        <Link href="/download/">FR Legends download</Link> from our site works
-        with gamepads exactly like the Play Store version, with no extra steps
-        required.
-      </p>
+      
 
       <h2>Playing With a Controller on Android</h2>
       <h3>Bluetooth gamepads</h3>
-      <p>
-        Pairing is the same as any Android game: put the controller in pairing
-        mode, open the Bluetooth settings, and connect. Once paired, launch FR
-        Legends and the game maps the pad automatically. If the game does not
-        react, force close and reopen it, because the controller handshake
-        happens at startup. USB-C controllers and pads with a wireless receiver
-        work the same way and are often the lower-latency choice for
-        competitive play.
-      </p>
+      
       <h3>Supported controllers list</h3>
       <ul>
         <li>
@@ -80,32 +59,15 @@ export default function FrLegendsControllerSupportPage() {
         </li>
         <li>PlayStation DualShock 4 and DualSense</li>
         <li>Nintendo Switch Pro Controller</li>
-        <li>8BitDo pads, including the Pro 2 and Ultimate models</li>
-        <li>Generic HID gamepads, including most wired models</li>
+        
+        
       </ul>
-      <p>
-        Anything that shows up as a standard HID device will work. Controllers
-        stuck in keyboard mode, which is common on cheap pads, need a mode
-        switch (usually holding the home button) before Android sees them as a
-        gamepad.
-      </p>
+      
 
       <h2>Playing on PC With a Controller via Emulator</h2>
-      <p>
-        On Windows, FR Legends runs inside an Android emulator, and the
-        emulator is where the mapping happens. Our full{" "}
-        <Link href="/fr-legends-mod-apk-for-pc/">FR Legends for PC guide</Link>{" "}
-        covers installation step by step, so here we focus on the controller
-        side of the setup.
-      </p>
+      
       <h3>BlueStacks</h3>
-      <p>
-        BlueStacks detects Xbox and PlayStation pads automatically. Open the
-        gamepad settings inside BlueStacks, make sure controller mode is on,
-        and the game receives native input. You can also bind keyboard keys to
-        the on-screen buttons, but native gamepad passthrough is the smoother
-        option because it keeps analog steering intact.
-      </p>
+      
       <h3>Nox Player</h3>
       <p>
         Nox works the same way. Enable controller support in the settings
@@ -157,17 +119,7 @@ export default function FrLegendsControllerSupportPage() {
           </tbody>
         </table>
       </div>
-      <p>
-        Two binds matter more than the rest. Keep throttle analog on the right
-        trigger so you can modulate power mid-slide, and keep the handbrake on
-        a bumper or face button that your thumb can reach without leaving the
-        steering stick. Our{" "}
-        <Link href="/fr-legends-best-drift-settings-tuning-guide/">
-          best drift settings and tuning guide
-        </Link>{" "}
-        pairs well with this layout, since the right tune makes the most of
-        analog input.
-      </p>
+      
 
       <h2>Controller vs Touch Controls for Drifting</h2>
       <p>
@@ -188,10 +140,7 @@ export default function FrLegendsControllerSupportPage() {
 
       <h2>Common Controller Problems and Fixes</h2>
       <ul>
-        <li>
-          Gamepad not detected: restart the game after pairing, or switch the
-          pad out of keyboard mode.
-        </li>
+        
         <li>
           Bluetooth lag or dropped input: connect over USB-C or a receiver, and
           move closer to the device.
@@ -204,20 +153,9 @@ export default function FrLegendsControllerSupportPage() {
           Analog throttle does nothing: some pads report as digital only, so
           use the in-game remap to put throttle on a button instead.
         </li>
-        <li>
-          Emulator ignores the pad: enable controller mode in BlueStacks or Nox
-          before launching the game.
-        </li>
+        
       </ul>
-      <p>
-        If the game itself will not start at all after you update, the problem
-        is the install rather than the controller; the{" "}
-        <Link href="/fr-legends-mod-apk-not-installing-fix/">
-          not installing fix guide
-        </Link>{" "}
-        walks through storage permission, unknown sources, and corrupt download
-        issues.
-      </p>
+      
 
       <ProseImage
         src="/assets/images/fr-legends-iphone-drift-gameplay.jpg"
@@ -249,12 +187,7 @@ export default function FrLegendsControllerSupportPage() {
               <td>Plug in, then launch the game</td>
               <td>Any wired HID pad</td>
             </tr>
-            <tr>
-              <td>PC via BlueStacks</td>
-              <td>Controller or keyboard</td>
-              <td>Enable gamepad mode, remap in game</td>
-              <td>Xbox or PS pad</td>
-            </tr>
+            
             <tr>
               <td>PC via Nox</td>
               <td>Controller or keyboard</td>
@@ -270,12 +203,7 @@ export default function FrLegendsControllerSupportPage() {
           </tbody>
         </table>
       </div>
-      <p>
-        A quick word on older releases: if a newer update changed control
-        behavior you liked, previous builds are archived in the{" "}
-        <Link href="/fr-legends-mod-apk-old-versions/">old versions section</Link>,
-        and they all keep the same gamepad support.
-      </p>
+      
 
       <h2>FAQ</h2>
       <h3>Can I play FR Legends with a controller on Android?</h3>
@@ -297,30 +225,14 @@ export default function FrLegendsControllerSupportPage() {
         just as well.
       </p>
       <h3>Why is my controller not detected in FR Legends?</h3>
-      <p>
-        Restart the game after pairing, make sure the pad is in gamepad mode
-        rather than keyboard mode, and check the emulator&apos;s controller settings
-        on PC.
-      </p>
+      
       <h3>Is a controller better than touch for drifting?</h3>
       <p>
         For consistency and precision, yes, especially once you get used to the
         analog inputs. Touch is still fine for casual play.
       </p>
 
-      <p>
-        If you are picking a car to pair with your new setup, the{" "}
-        <Link href="/fr-legends-car-tier-list/">FR Legends car tier list</Link>{" "}
-        ranks the best drifters, and the{" "}
-        <Link href="/fr-legends-tracks-list/">tracks list</Link> shows which
-        circuits reward a clean, controlled line over raw angle. For a
-        different kind of competition, the{" "}
-        <Link href="/fr-legends-battle-mode-guide/">battle mode guide</Link>{" "}
-        explains the scoring system and how controller input helps you chain
-        longer runs. More controller updates and other tips land on the{" "}
-        <Link href="/blog/">FR Legends blog</Link> regularly, so check back
-        whenever a new game update drops.
-      </p>
+      
     </ArticlePage>
   );
 }
