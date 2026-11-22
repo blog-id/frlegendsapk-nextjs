@@ -52,19 +52,8 @@ export default function FrLegendsCarTierListPage() {
         proper setups, so a well-tuned B-tier car can hang with a stock S-tier
         one.
       </p>
-      <h3>The mod version changes the game</h3>
-      <p>
-        Expensive cars stay locked behind long coin grinds in the original
-        game. In the mod, every car is unlocked from the start, so you can test
-        the whole roster for free.
-      </p>
-
       <h2>S Tier: The Best Drift Cars in FR Legends</h2>
-      <p>
-        S-tier cars let you make mistakes and keep sliding. The rear breaks
-        away predictably, and the grip is there when you need it back. If you
-        are entering your first Battle Mode tournament, bring one of these.
-      </p>
+      
       <div className="table-wrap">
         <table>
           <caption className="visually-hidden">
@@ -97,19 +86,7 @@ export default function FrLegendsCarTierListPage() {
         </table>
       </div>
       <h3>Mazda RX-7 FD3S</h3>
-      <p>
-        The FD is the car every other tier list compares against. Its rotary
-        engine revs instantly, the chassis rotates on a dime, and it holds
-        angle deeper than most cars can reach. It takes a while to earn, but it
-        is the most complete drift experience on the roster. If you want it to
-        look as good as it drives, our{" "}
-        <Link href="/fr-legends-rx7-mod-livery-codes/">RX-7 livery codes</Link>{" "}
-        collection has you covered, and our{" "}
-        <Link href="/how-to-build-the-perfect-drift-car/">
-          guide on building the perfect drift car
-        </Link>{" "}
-        explains how to spend your first upgrade coins on it.
-      </p>
+      
       <h3>Nissan Skyline R32</h3>
       <p>
         The R32 is the grip car that drifts. Its all-wheel-drive foundation
@@ -182,25 +159,10 @@ export default function FrLegendsCarTierListPage() {
         more than competition cars. The list: Toyota AE86, BMW E30, Mazda
         Miata, Toyota Altezza, and BMW E36.
       </p>
-      <p>
-        The AE86 and the Miata are the definitive technique trainers. Both are
-        cheap, light, and honest about your mistakes. If you are new to
-        drifting, our <Link href="/best-beginner-car-in-fr-legends/">best beginner car guide</Link>{" "}
-        explains why the Miata is the safest first buy. The E30 is the most
-        popular European build, and our{" "}
-        <Link href="/fr-legends-bmw-drift-mods/">BMW drift mods</Link> page
-        shows what the community does with it.
-      </p>
+      
 
       <h2>C Tier: Specialist Picks</h2>
-      <p>
-        C-tier cars exist for character. They are underpowered, quirky, or
-        both, and they reward practice while frustrating general use. The Lada
-        2105 is a muscle-car physics experiment, the KPGC110 a vintage legend,
-        and the Chaser JZX100 needs a strong setup. None will carry you in a
-        competition, but all three are brilliant once you adapt, and in the mod
-        version they cost nothing to try.
-      </p>
+      
 
       <h2>How Coins and Progression Change the Rankings</h2>
       <p>
@@ -217,22 +179,10 @@ export default function FrLegendsCarTierListPage() {
         width={1200}
         height={675}
       />
-      <p>
-        The mod version removes the economy, so the rankings above become the
-        pure handling order, not the order your wallet can afford. The current
-        mod build is on the <Link href="/download/">download page</Link>, older
-        releases are archived on our{" "}
-        <Link href="/fr-legends-mod-apk-old-versions/">old versions</Link>{" "}
-        page, and the <Link href="/fr-legends-new-cars-update-log/">update log</Link>{" "}
-        shows how new cars and patches shuffle these rankings.
-      </p>
+      
 
       <h2>FR Legends Car Tier List Summary</h2>
-      <p>
-        The table condenses the car, its tier, its best use, and roughly what
-        it costs in the original game. In the mod version, ignore the price
-        column.
-      </p>
+      
       <div className="table-wrap">
         <table>
           <caption className="visually-hidden">
@@ -325,12 +275,7 @@ export default function FrLegendsCarTierListPage() {
               <td>Fun daily drifting</td>
               <td>Mid range coins</td>
             </tr>
-            <tr>
-              <td>BMW E36</td>
-              <td>B</td>
-              <td>Mod garage addition</td>
-              <td>Free in mod</td>
-            </tr>
+            
             <tr>
               <td>Lada 2105</td>
               <td>C</td>
@@ -379,27 +324,6 @@ export default function FrLegendsCarTierListPage() {
         <Link href="/fr-legends-new-cars-update-log/">update log</Link> after
         every new release if this list feels outdated.
       </p>
-      <h3>Can I unlock all cars in the mod version?</h3>
-      <p>
-        Yes. The mod unlocks every car and upgrade from the start, so you can
-        test the full tier list for free. The <Link href="/download/">download page</Link>{" "}
-        has the current build.
-      </p>
-
-      <p>
-        That is the full FR Legends car tier list. Start in B tier to learn,
-        move to A tier for value, and graduate to S tier. Our{" "}
-        <Link href="/how-to-drift-in-fr-legends/">how to drift guide</Link>{" "}
-        covers the basics, the{" "}
-        <Link href="/fr-legends-best-drift-settings-tuning-guide/">tuning guide</Link>{" "}
-        fine-tunes your setup, and the{" "}
-        <Link href="/how-to-build-the-perfect-drift-car/">build guide</Link>{" "}
-        spends your coins in the right order. For more content, head to the{" "}
-        <Link href="/blog/">blog</Link>, check the{" "}
-        <Link href="/fr-legends-supra-mod-apk/">Supra mod page</Link>, browse
-        the <Link href="/fr-legends-cars-list/">cars list</Link>, or return to
-        the <Link href="/">homepage</Link>.
-      </p>
-    </ArticlePage>
+      </ArticlePage>
   );
 }
