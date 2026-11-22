@@ -73,7 +73,7 @@ export const ARTICLES: Record<string, Article> = {
   "fr-legends-battle-mode-guide": {
     slug: "fr-legends-battle-mode-guide",
     title: "FR Legends Battle Mode Guide, Rules, Scores and Strategy",
-    description: "FR Legends Battle Mode rules, scoring, rounds and strategy explained. Best cars, setups, tips to win and how the mod version changes battles.",
+    description: "FR Legends Battle Mode rules, lead and chase roles, scoring, setup considerations and tips for more consistent tandem runs.",
     image: "https://frlegendmodapk.com/assets/images/fr-legends-drift-gameplay-scene.jpg",
     datePublished: "2026-08-08",
     dateModified: "2026-08-16",
