@@ -28,21 +28,8 @@ export default function HowToDriftInFrLegendsPage() {
       </p>
 
       <h2>What makes FR Legends drift physics different</h2>
-      <p>
-        FR Legends is an arcade racer, but its drift model has real weight
-        transfer baked in. The rear steps out when weight leaves the rear tires:
-        braking pitches the nose down and loads the fronts, throttle squats the
-        car and loads the rears, and the handbrake locks the rear wheels
-        outright. You cannot hold the throttle and saw the wheel and expect a
-        clean slide. The game rewards smooth, deliberate inputs.
-      </p>
-      <p>
-        Tracks like <Link href="/fr-legends-tracks-list/">Drift Park and the Mt. Aso touge</Link>{" "}
-        have consistent surfaces, so when a slide fails you can trace it to one
-        input and fix it. Playing on a new device? Grab the{" "}
-        <Link href="/download/">latest FR Legends APK</Link> so you practice on
-        the current physics.
-      </p>
+      
+      
 
       <h2>The three initiations: lift-off, handbrake, and feint</h2>
       <p>
@@ -105,14 +92,7 @@ export default function HowToDriftInFrLegendsPage() {
         shifts weight back, which extends the slide and pulls the car straight
         on exit. A huge part of FR Legends technique is timing those two shifts.
       </p>
-      <p>
-        On entry, brake in a straight line, turn in as the nose dives, let the
-        rear step out, then roll smoothly back onto the throttle. On exit, add
-        power as the track straightens. If you find yourself fighting the car,
-        you are fighting the weight transfer instead of using it. A{" "}
-        <Link href="/fr-legends-car-tier-list/">car tier list</Link> can point
-        you to models that rotate most predictably.
-      </p>
+      
 
       <h2>Car setup tips for drifting</h2>
       <p>
@@ -272,12 +252,7 @@ export default function HowToDriftInFrLegendsPage() {
 
       <h2>FAQ</h2>
       <h3>What is the best car for drifting in FR Legends?</h3>
-      <p>
-        Any rear-wheel-drive car with good upgrades can drift, but classic
-        choices have balanced weight and predictable rotation. The{" "}
-        <Link href="/fr-legends-cars-list/">full cars list</Link> shows every
-        model.
-      </p>
+      
       <h3>Do I need drift tuning before I can drift?</h3>
       <p>
         No. Stock cars drift with the right technique. Setup helps you hold
@@ -302,15 +277,7 @@ export default function HowToDriftInFrLegendsPage() {
       </p>
 
       <h2>Keep practicing</h2>
-      <p>
-        Drifting in FR Legends is a skill, not a setting. Every spin is data,
-        every smooth run is proof the inputs are landing. When you are ready for
-        more, explore the <Link href="/fr-legends-mod-apk-for-pc/">PC version</Link>{" "}
-        for better control feel, play{" "}
-        <Link href="/fr-legends-mod-apk-ios/">on iOS</Link>, or revisit{" "}
-        <Link href="/fr-legends-mod-apk-old-versions/">older versions</Link> to
-        see how the physics evolved. Above all, keep practicing.
-      </p>
+      
     </ArticlePage>
   );
 }
