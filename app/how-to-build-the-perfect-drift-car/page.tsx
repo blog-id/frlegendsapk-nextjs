@@ -30,14 +30,7 @@ export default function HowToBuildThePerfectDriftCarPage() {
       </p>
 
       <h2>What Makes a Drift Car Good in FR Legends</h2>
-      <p>
-        A good drift car is one you can throw into a corner, hold at full angle,
-        and catch without drama. The game rewards rear-wheel-drive chassis with
-        strong mid-range torque, predictable rear suspension, and a diff that
-        locks under load. The physics model reacts to four things: how power
-        arrives at the rear wheels, how the suspension loads, how much the car
-        weighs, and how the diff splits torque.
-      </p>
+      
       <h3>Power delivery</h3>
       <p>
         Turbo engines hit hard and late, which is exciting but hard to control.
@@ -139,32 +132,10 @@ export default function HowToBuildThePerfectDriftCarPage() {
       />
 
       <h2>Cosmetic Builds: Wheels, Body Kits, and Liveries</h2>
-      <p>
-        Once the car handles, make it look the part. Wide wheels with the right
-        offset transform the stance, and body kits change the silhouette more
-        than any paint job can. For wraps and graphics, the{" "}
-        <Link href="/fr-legends-livery-codes/">
-          FR Legends livery code library
-        </Link>{" "}
-        has thousands of paste-ready designs, including dedicated collections
-        for the <Link href="/fr-legends-rx7-mod-livery-codes/">RX-7 mod</Link>{" "}
-        and the <Link href="/fr-legends-supra-mod-apk/">Supra mod</Link>. For
-        German metal, <Link href="/fr-legends-bmw-drift-mods/">BMW drift mods</Link>{" "}
-        add some of the most famous drift cars to your garage.
-      </p>
+      
 
       <h2>Budget Builds vs Endgame Builds</h2>
-      <p>
-        There are two ways to play the build game. On a budget, you max out one
-        car and learn it completely before touching anything else. With the{" "}
-        <Link href="/download/">mod APK and its unlimited money</Link>, you can
-        skip the grind and build several cars at once, testing suspension setups
-        side by side. If you miss the old progression,{" "}
-        <Link href="/fr-legends-mod-apk-old-versions/">
-          older versions of the mod
-        </Link>{" "}
-        keep the classic economy intact.
-      </p>
+      
 
       <h2>Build Plans for Every Budget</h2>
       <p>
@@ -298,33 +269,9 @@ export default function HowToBuildThePerfectDriftCarPage() {
         predictably, which instantly improves every drift you attempt.
       </p>
       <h3>How many coins does a full build cost?</h3>
-      <p>
-        A learner build costs roughly 40k to 60k coins, a mid-range build around
-        120k to 160k, and a full endgame build 300k or more. The{" "}
-        <Link href="/download/">unlimited money mod</Link> removes the grind if
-        you want to skip it.
-      </p>
-      <h3>Is the mod required to build a good drift car?</h3>
-      <p>
-        No. The build order in this guide works in the original game too; the
-        mod just lets you build multiple setups faster and skip the coin grind.
-      </p>
-
+      
       <h2>Put It All Together</h2>
-      <p>
-        Building the perfect drift car is a process, not a purchase: choose the
-        right chassis, sort the tires and suspension, add the diff, then bring
-        the power. Then the real work continues on the track, and our{" "}
-        <Link href="/how-to-drift-in-fr-legends/">
-          how to drift in FR Legends
-        </Link>{" "}
-        guide covers the techniques that make a good car feel great. To browse
-        every chassis, check the{" "}
-        <Link href="/fr-legends-cars-list/">full FR Legends cars list</Link>,
-        and for more builds and updates, visit the{" "}
-        <Link href="/blog/">FR Legends Mod Apk blog</Link> or return to our{" "}
-        <Link href="/">home page</Link>.
-      </p>
+      
     </ArticlePage>
   );
 }
