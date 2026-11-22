@@ -69,7 +69,7 @@ export default function ArticlePage({
       {layout === "prose" ? (
         <section className="section"><div className="container"><div className="prose">{children}</div></div></section>
       ) : children}
-      {article.articleJsonLd ? <JsonLd data={article.articleJsonLd} /> : null}
+      {article.articleJsonLd && article.articleJsonLd.datePublished ? <JsonLd data={article.articleJsonLd} /> : null}
       {article.breadcrumbJsonLd ? <JsonLd data={article.breadcrumbJsonLd} /> : null}
       {article.howToJsonLd ? <JsonLd data={article.howToJsonLd} /> : null}
     </>
