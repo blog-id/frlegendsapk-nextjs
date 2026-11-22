@@ -13,18 +13,9 @@ type ArticlePageProps = {
   crumbs?: { label: string; href?: string }[];
   actions?: ReactNode;
   headerImage?: { src: string; alt: string; width?: number; height?: number };
-  /**
-   * "prose" (default) wraps the body in a centered container with
-   * responsive padding and a readable line length. "sections" passes
-   * the body through as-is for pages that build their own sections.
-   */
   layout?: "prose" | "sections";
 };
 
-/**
- * Shared shell for article pages: breadcrumbs, page header, prose body
- * and the JSON-LD blocks preserved from the original static site.
- */
 export default function ArticlePage({
   slug,
   children,
@@ -61,18 +52,8 @@ export default function ArticlePage({
         <div className="container">
           <h1>{title ?? article.title}</h1>
           {lede ? <p className="lede">{lede}</p> : null}
-          {metaLine ? (
-            <p
-              className="meta-line"
-              dangerouslySetInnerHTML={{ __html: metaLine }}
-            />
-          ) : null}
-          {article.metaHtml ? (
-            <div
-              className="article-meta"
-              dangerouslySetInnerHTML={{ __html: article.metaHtml }}
-            />
-          ) : null}
+          {metaLine ? <p className="meta-line" dangerouslySetInnerHTML={{ __html: metaLine }} /> : null}
+          {article.metaHtml ? <div className="article-meta" dangerouslySetInnerHTML={{ __html: article.metaHtml }} /> : null}
           {actions ? <div className="hero-actions">{actions}</div> : null}
           {headerImage ? (
             <img
@@ -86,18 +67,10 @@ export default function ArticlePage({
         </div>
       </Tag>
       {layout === "prose" ? (
-        <section className="section">
-          <div className="container">
-            <div className="prose">{children}</div>
-          </div>
-        </section>
-      ) : (
-        children
-      )}
+        <section className="section"><div className="container"><div className="prose">{children}</div></div></section>
+      ) : children}
       {article.articleJsonLd ? <JsonLd data={article.articleJsonLd} /> : null}
       {article.breadcrumbJsonLd ? <JsonLd data={article.breadcrumbJsonLd} /> : null}
-      {article.faqJsonLd ? <JsonLd data={article.faqJsonLd} /> : null}
-      {article.softwareJsonLd ? <JsonLd data={article.softwareJsonLd} /> : null}
       {article.howToJsonLd ? <JsonLd data={article.howToJsonLd} /> : null}
     </>
   );
