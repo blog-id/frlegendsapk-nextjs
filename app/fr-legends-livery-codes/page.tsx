@@ -65,10 +65,7 @@ export default function FrLegendsLiveryCodesPage() {
               <div className="step-number" aria-hidden="true">1</div>
               <div className="step-body">
                 <h3>Open the car in your garage</h3>
-                <p>
-                  Pick any car you own, with the mod installed that is every
-                  car in the game, including the Supra, RX-7, and BMW builds.
-                </p>
+                
               </div>
             </div>
             <div className="step">
@@ -104,12 +101,7 @@ export default function FrLegendsLiveryCodesPage() {
               </div>
             </div>
           </div>
-          <p>
-            Need the mod itself? Grab the latest build from the{" "}
-            <Link href="/download/">FR Legends Mod Apk download page</Link>, or
-            head back to our <Link href="/">home page</Link> for the full
-            overview of what the mod changes.
-          </p>
+          
         </div>
       </section>
 
@@ -233,13 +225,7 @@ export default function FrLegendsLiveryCodesPage() {
               </tbody>
             </table>
           </div>
-          <p>
-            These are placeholder examples in the community format, not
-            verified working builds, the format is what matters here. In the
-            mod version, testing is free: every car is unlocked, so you can see
-            how any design reads on a dozen different bodies before committing
-            to one.
-          </p>
+          
         </div>
       </section>
 
@@ -267,11 +253,7 @@ export default function FrLegendsLiveryCodesPage() {
                 editor (or the reverse) is the most common "broken code"
                 report, and the easiest fix.
               </li>
-              <li>
-                <strong>Test on a throwaway car first.</strong> In the mod,
-                grab a car you don't care about, apply the code, and inspect it
-                from all angles before putting it on your main build.
-              </li>
+              
               <li>
                 <strong>Combine body and window codes.</strong> The best-looking
                 cars usually layer a window banner over a body wrap, the two
@@ -302,31 +284,14 @@ export default function FrLegendsLiveryCodesPage() {
             </div>
             <div className="card">
               <h3>Supra builds</h3>
-              <p>
-                2JZ tributes, gold-wheel classics, and the black-and-gold look
-                on the community's favorite car, see the{" "}
-                <Link href="/fr-legends-supra-mod-apk/">
-                  Supra mod & codes page
-                </Link>
-                .
-              </p>
+              
             </div>
             <div className="card">
               <h3>RX-7 & BMW</h3>
-              <p>
-                Rotary-style wraps on the{" "}
-                <Link href="/fr-legends-rx7-mod-livery-codes/">RX-7 page</Link>
-                , and motorsport stripes on the{" "}
-                <Link href="/fr-legends-bmw-drift-mods/">BMW mods page</Link>.
-              </p>
+              
             </div>
           </div>
-          <p>
-            Every car page on the site ships with its own code selection, so if
-            you know the car you're building, start there. If you're still
-            choosing a car, our <Link href="/fr-legends-cars-list/">full cars list</Link>{" "}
-            shows the whole roster and how the mod unlocks it.
-          </p>
+          
         </div>
       </section>
 
