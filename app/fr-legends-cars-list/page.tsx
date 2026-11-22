@@ -24,15 +24,7 @@ export default function FrLegendsCarsListPage() {
             <h2>Every Car in FR Legends</h2>
           </div>
           <div className="prose" style={{ maxWidth: "100%" }}>
-            <p>
-              FR Legends, the drift game by Twin Turbo Tech, has grown its
-              garage from a small starter selection into a roster of more than
-              30 cars spanning Japanese tuners, European classics, American
-              muscle, and modern drift platforms. The mod version of the game
-              unlocks every single one of them instantly, in the original, you
-              earn cars through coins, career progress, and occasionally
-              real-money purchases.
-            </p>
+            
             <ProseImage
               src="/assets/images/fr-legends-nissan-silvia-s15.jpg"
               alt="Nissan Silvia S15 in the FR Legends garage"
@@ -47,12 +39,7 @@ export default function FrLegendsCarsListPage() {
                 method, and mod status
               </caption>
               <thead>
-                <tr>
-                  <th scope="col">Car</th>
-                  <th scope="col">Class</th>
-                  <th scope="col">How to unlock (original)</th>
-                  <th scope="col">Mod status</th>
-                </tr>
+                
               </thead>
               <tbody>
                 <tr>
@@ -67,12 +54,7 @@ export default function FrLegendsCarsListPage() {
                   <td>Coins</td>
                   <td>Unlocked instantly</td>
                 </tr>
-                <tr>
-                  <td>Toyota GT86</td>
-                  <td>Modern sports</td>
-                  <td>Coins</td>
-                  <td>Unlocked instantly</td>
-                </tr>
+                
                 <tr>
                   <td>Toyota MR2</td>
                   <td>Mid-engine compact</td>
@@ -133,12 +115,7 @@ export default function FrLegendsCarsListPage() {
                   <td>Coins</td>
                   <td>Unlocked instantly</td>
                 </tr>
-                <tr>
-                  <td>Subaru BRZ</td>
-                  <td>Modern sports</td>
-                  <td>Coins</td>
-                  <td>Unlocked instantly</td>
-                </tr>
+                
                 <tr>
                   <td>Subaru Impreza WRX STI</td>
                   <td>Rally</td>
@@ -178,12 +155,7 @@ export default function FrLegendsCarsListPage() {
               </tbody>
             </table>
           </div>
-          <p>
-            The garage also includes a few more models beyond this table, newer
-            additions and event cars that rotate in and out, but this is the
-            core roster you will spend your time with. The pattern holds for
-            all of them: in the original, a grind; in the mod, one tap away.
-          </p>
+          
         </div>
       </section>
 
@@ -194,15 +166,7 @@ export default function FrLegendsCarsListPage() {
             <h2>How Unlocks Work in the Original</h2>
           </div>
           <div className="prose" style={{ maxWidth: "100%" }}>
-            <p>
-              In the vanilla game, the garage is a progression system in
-              disguise. Most cars are bought with <strong>coins</strong>,
-              earned from finishing Solo Runs, Championships, and Touge Attack
-              stages. Payouts are modest, and prices scale steeply, the Supra,
-              RX-7, and S15 cost thousands, so a player on the standard loop
-              can expect a long stretch of saving between purchases. That is
-              the deliberate pacing of the game: every car is a milestone.
-            </p>
+            
             <p>
               Some cars are tied to <strong>career progress</strong> rather
               than price. The Skyline GT-R R32, the WRX STI, and the Lancer
@@ -213,17 +177,7 @@ export default function FrLegendsCarsListPage() {
               Porsche 911 GT3, which in the original are tied to real-money
               purchases or special event rewards.
             </p>
-            <p>
-              The mod removes the entire ladder. Unlimited money covers the
-              coin purchases, all cars are flagged as unlocked from the first
-              launch, and the premium tier costs nothing. The result is that
-              the roster above is yours in full on day one, the same drift
-              physics, the same handling, just without the economy gate. If
-              you want the exact differences spelled out, our{" "}
-              <Link href="/">main mod page</Link> has the full
-              original-vs-mod breakdown, and the current build is always on
-              the <Link href="/download/">download page</Link>.
-            </p>
+            
           </div>
         </div>
       </section>
@@ -233,52 +187,24 @@ export default function FrLegendsCarsListPage() {
           <div className="section-head">
             <span className="kicker">Find your ride</span>
             <h2>Which Car Should You Pick?</h2>
-            <p className="lede">The mod gives you everything, the question is where to start.</p>
+            
           </div>
           <div className="grid-3">
             <div className="card">
               <h3>Toyota Supra (MK4)</h3>
-              <p>
-                The community's most-requested car: 2JZ torque, long slides,
-                and a huge livery library.{" "}
-                <Link href="/fr-legends-supra-mod-apk/">Supra mod page â†’</Link>
-              </p>
+              
             </div>
             <div className="card">
               <h3>Mazda RX-7 (FD)</h3>
-              <p>
-                Light, revvy, and razor-sharp on technical tracks.{" "}
-                <Link href="/fr-legends-rx7-mod-livery-codes/">
-                  RX-7 mod page â†’
-                </Link>
-              </p>
+              
             </div>
             <div className="card">
               <h3>BMW E30 & M3</h3>
-              <p>
-                The European classics, forgiving to learn, rewarding to
-                master.{" "}
-                <Link href="/fr-legends-bmw-drift-mods/">
-                  BMW mods page â†’
-                </Link>
-              </p>
+              
             </div>
           </div>
           <div className="prose" style={{ maxWidth: "100%" }}>
-            <p>
-              Still deciding? Our <Link href="/fr-legends-car-tier-list/">car tier list</Link>{" "}
-              ranks the whole roster by drift performance, the{" "}
-              <Link href="/best-beginner-car-in-fr-legends/">
-                best beginner car guide
-              </Link>{" "}
-              picks the gentlest starters, and the{" "}
-              <Link href="/fr-legends-best-drift-settings-tuning-guide/">
-                drift settings guide
-              </Link>{" "}
-              will have you tuning whichever you choose. The honest advice:
-              pick the AE86 or Miata first, learn the physics, then spend the
-              unlimited money on the icon of your choice.
-            </p>
+            
           </div>
         </div>
       </section>
