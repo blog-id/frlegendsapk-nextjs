@@ -32,19 +32,7 @@ export default function FrLegendsBestDriftSettingsTuningGuidePage() {
       </p>
 
       <h2>How tuning works in FR Legends</h2>
-      <p>
-        FR Legends gives you two tuning layers. The first is three main
-        sliders: power, grip, and balance. The second is the suspension parts
-        you buy in the upgrade shop: springs, ride height, camber, caster, and
-        tire pressure. Both layers feed the same physics model, so a change in
-        one affects the others. Max out grip and the car feels planted, but
-        drop tire pressure and you lose the easy breakaway drifting needs.
-        Parts unlock as you level up and can be installed or removed for free,
-        so experiment without worry. If you are new, start with the{" "}
-        <Link href="/best-beginner-car-in-fr-legends/">best beginner car</Link>{" "}
-        before spending heavily on parts. Here is a quick summary of the five
-        suspension settings:
-      </p>
+      
       <div className="table-wrap">
         <table>
           <caption className="visually-hidden">
@@ -148,16 +136,7 @@ export default function FrLegendsBestDriftSettingsTuningGuidePage() {
       />
 
       <h2>Power versus grip: the core trade-off</h2>
-      <p>
-        Almost every tuning problem comes down to this. More power and less
-        grip gives huge angles and dramatic initiation, the drift park style,
-        but the car is harder to hold on fast, flowing sections. More grip and
-        less power gives consistent slides that score well and win battles, but
-        the car feels slow to break away. The right answer depends on the mode.
-        Single-player events reward sustained angle, so a looser car helps.
-        Battle mode rewards proximity and control, so players lean toward grip.
-        More detail in the <Link href="/fr-legends-battle-mode-guide/">battle mode guide</Link>.
-      </p>
+      
 
       <h2>Suspension and steering feel</h2>
       <p>
@@ -192,18 +171,6 @@ export default function FrLegendsBestDriftSettingsTuningGuidePage() {
         guessing.
       </p>
 
-      <h2>Tuning for battle mode</h2>
-      <p>
-        Battle mode changes everything: you score points for leading, chasing
-        close, and matching lines, not for the biggest angle. A battle setup
-        favors grip and stability: power around 60 percent, grip near 70
-        percent, and neutral balance. Initiation speed matters more than angle
-        size, so keep the suspension medium and avoid the softest springs.
-        Practice lines with the <Link href="/fr-legends-battle-mode-guide/">battle mode guide</Link>,
-        then fix whichever side loses points: grip for chasing, power for
-        leading.
-      </p>
-
       <h2>Common setup mistakes</h2>
       <p>
         These are the mistakes we see most often in player questions and
@@ -233,58 +200,6 @@ export default function FrLegendsBestDriftSettingsTuningGuidePage() {
         fixes most problems on its own.
       </p>
 
-      <h2>Quick reference: setups for every mode</h2>
-      <p>
-        Use this table as a starting point, then adjust from feel. Values are
-        percentages of the slider maximum.
-      </p>
-      <div className="table-wrap">
-        <table>
-          <caption className="visually-hidden">
-            Recommended FR Legends setups by mode
-          </caption>
-          <thead>
-            <tr>
-              <th scope="col">Mode</th>
-              <th scope="col">Power</th>
-              <th scope="col">Grip</th>
-              <th scope="col">Balance</th>
-              <th scope="col">Key notes</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Drift park</td>
-              <td>80%</td>
-              <td>55%</td>
-              <td>Drift bias</td>
-              <td>Big angles, soft rear</td>
-            </tr>
-            <tr>
-              <td>Touge</td>
-              <td>70%</td>
-              <td>60%</td>
-              <td>Slight drift bias</td>
-              <td>Raise ride height, keep medium springs</td>
-            </tr>
-            <tr>
-              <td>Battle mode</td>
-              <td>60%</td>
-              <td>70%</td>
-              <td>Neutral</td>
-              <td>Stability first, grip for chasing</td>
-            </tr>
-            <tr>
-              <td>Drag</td>
-              <td>100%</td>
-              <td>90%</td>
-              <td>Grip bias</td>
-              <td>Stiff springs, low ride height</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
       <h2>FAQ</h2>
       <h3>What is the best drift setup in FR Legends?</h3>
       <p>
@@ -301,32 +216,6 @@ export default function FrLegendsBestDriftSettingsTuningGuidePage() {
         Add grip, lower power, and raise tire pressure. If the car still spins,
         move the balance slider toward neutral.
       </p>
-      <h3>Do tuning settings matter in battle mode?</h3>
-      <p>
-        Yes. Battles reward proximity and clean lines, so grip-heavy with
-        neutral balance usually beats a loose, big-angle setup.
-      </p>
-      <h3>Can I change tuning for free in the mod apk?</h3>
-      <p>
-        Yes. Suspension parts cost coins in the original game, but the{" "}
-        <Link href="/download/">mod apk download</Link> gives unlimited money,
-        so every part is free to test.
-      </p>
-
-      <p>
-        Tuning is a skill you build one session at a time. Start with the
-        baseline above and change one variable per run. Next, read{" "}
-        <Link href="/how-to-build-the-perfect-drift-car/">
-          how to build the perfect drift car
-        </Link>{" "}
-        for a full upgrade order, check our <Link href="/blog/">blog</Link> for
-        more guides, or grab the <Link href="/fr-legends-mod-apk-for-pc/">PC version</Link>{" "}
-        to practice with a wheel and pedals. Older builds with different
-        physics are on the{" "}
-        <Link href="/fr-legends-mod-apk-old-versions/">old versions</Link>{" "}
-        page, and the <Link href="/">home page</Link> has everything else you
-        need.
-      </p>
-    </ArticlePage>
+      </ArticlePage>
   );
 }
