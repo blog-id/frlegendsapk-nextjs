@@ -9,6 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: `${SITE_URL}/blog/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/download/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${SITE_URL}/fr-legends-cars-list/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE_URL}/fr-legends-livery-codes/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
   const articlePages: MetadataRoute.Sitemap = BLOG_POST_SLUGS
     .filter((slug) => Boolean(ARTICLES[slug]))
