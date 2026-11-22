@@ -54,6 +54,8 @@ const nextConfig: NextConfig = {
       "/fr-legends-rx7-mod-livery-codes/": "/fr-legends-livery-codes/",
       "/fr-legends-supra-mod-apk/": "/fr-legends-cars-list/",
       "/is-fr-legends-mod-apk-safe/": "/disclaimer/",
+      "/how-to-get-free-coins-in-fr-legends/": "/blog/",
+      "/fr-legends-vs-fr-legends-2/": "/blog/",
     };
     return [...Object.entries(redirectsFrom), ...Object.entries(legacyRoutes)].map(
       ([source, destination]) => ({ source, destination, permanent: true }),
