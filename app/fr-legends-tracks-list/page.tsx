@@ -33,25 +33,8 @@ export default function FrLegendsTracksListPage() {
       </p>
 
       <h2>How track unlocks and scoring work in FR Legends</h2>
-      <p>
-        In career mode you work through a five star rating system. Finish a
-        stage with gold, silver or bronze and you earn stars, with gold giving
-        the full five. Collect enough stars and the next track unlocks, along
-        with new cars and events. Each venue has its own set of stages, so you
-        cannot reach Meihan Kansai without clearing the easier circuits first.
-        Battle mode is separate: every track is available from the start, and
-        you earn coins for wins and for beating your personal best scores.
-      </p>
-      <p>
-        The mod version removes most of the grind. All ten tracks, every car and
-        every event are unlocked from day one, which makes it the fastest way to
-        practice tracks you would normally see only late in career mode. Grab
-        the mod from the <Link href="/download/">download page</Link>, but even
-        in the base game the unlock order is a sensible difficulty curve, so
-        follow it anyway. If your install will not run, the{" "}
-        <Link href="/fr-legends-mod-apk-old-versions/">older versions page</Link>{" "}
-        has builds that work on more devices.
-      </p>
+      
+      
 
       <h2>Every FR Legends track, grouped by type</h2>
       <p>
@@ -60,17 +43,7 @@ export default function FrLegendsTracksListPage() {
         you most of what you need about how to drive it.
       </p>
       <h3>Circuit tracks</h3>
-      <p>
-        Four courses belong here. Irwindale Speedway is a banked oval with an
-        infield section, wide, fast and forgiving, the best place to learn
-        transitions. Grange Motor Circuit is a flowing track with long sweepers
-        and fast changes of direction, great for building confidence at speed.
-        USAIR Motorsport is a modern, wide venue with generous run-off and
-        smooth lines, an easy track that still teaches you to hit apexes. Meihan
-        Kansai is the hardest circuit on the list, a real Japanese circuit with
-        tight, rhythm-heavy corners that rewards clean entries and makes tandems
-        look effortless.
-      </p>
+      
       <h3>Touge tracks</h3>
       <p>
         Gunsai Touge is the signature mountain pass, a narrow ribbon of asphalt
@@ -202,29 +175,6 @@ export default function FrLegendsTracksListPage() {
         explains the suspension and tyre settings each of these venues rewards.
       </p>
 
-      <h2>The best tracks for battle mode</h2>
-      <p>
-        Battle mode is scored on angle, line and style, so choose a venue that
-        shows your car at its best. Meihan Kansai is the community favorite for
-        tandems, because the rhythm flows and the scoring rewards a car that
-        stays glued to the inside line. Irwindale suits high speed battles,
-        where a wide, aggressive line still scores well. For a real test of
-        nerve, Gunsai Touge forces you to carry angle through blind crests. The{" "}
-        <Link href="/fr-legends-battle-mode-guide/">battle mode guide</Link>{" "}
-        breaks down the scoring rules, and the{" "}
-        <Link href="/fr-legends-car-tier-list/">car tier list</Link> shows which
-        cars hold angle long enough to win on these tracks. Grinding battles on
-        USAIR or Drift Park is also the most efficient way to earn coins for
-        upgrades.
-      </p>
-
-      <ProseImage
-        src="/assets/images/fr-legends-drift-racing-gameplay.jpg"
-        alt="FR Legends drift racing gameplay on a circuit track"
-        width={1200}
-        height={675}
-      />
-
       <h2>How the track changes your car setup</h2>
       <p>
         Different venues ask for different setups. On bumpy tracks like Ebisu
@@ -343,30 +293,11 @@ export default function FrLegendsTracksListPage() {
         faster as gravity pulls you downhill.
       </p>
       <h3>How do I unlock all tracks fast?</h3>
-      <p>
-        Earn gold medals to collect five stars per stage and the tracks unlock
-        in order. The <Link href="/download/">mod version</Link> unlocks
-        everything from day one if you want to skip the grind.
-      </p>
+      
       <h3>Which track is best for tandems?</h3>
-      <p>
-        Meihan Kansai. Its rhythm and flow make it the community favorite for
-        battle mode and tandem battles, so it is the place to practice following
-        another car.
-      </p>
+      
 
-      <p>
-        Take this list with you the next time you open the game. Start on the
-        beginner courses, build consistency on the medium ones, and leave the
-        touges until your transitions are automatic. For more help, browse the{" "}
-        <Link href="/blog/">blog</Link> for guides on{" "}
-        <Link href="/fr-legends-battle-mode-guide/">battle mode</Link>,{" "}
-        <Link href="/fr-legends-car-tier-list/">car tiers</Link> and{" "}
-        <Link href="/best-beginner-car-in-fr-legends/">beginner cars</Link>, or
-        read about playing on <Link href="/fr-legends-mod-apk-for-pc/">PC</Link>{" "}
-        and <Link href="/fr-legends-mod-apk-ios/">iOS</Link>. Ten venues, one
-        goal: keep the angle.
-      </p>
+      
     </ArticlePage>
   );
 }
