@@ -140,8 +140,8 @@ export const ARTICLES: Record<string, Article> = {
   },
   "fr-legends-cars-list": {
     slug: "fr-legends-cars-list",
-    title: "FR Legends Cars List - All Cars & How to Unlock Them",
-    description: "Every car in FR Legends Fan Guides, how to unlock it, and quick specs, the full roster in one place.",
+    title: "FR Legends Cars List: Choosing and Unlocking Cars",
+    description: "An overview of the FR Legends car roster, progression and vehicle characteristics to consider when choosing a car.",
     image: "https://frlegendmodapk.com/assets/images/og-image.jpg",
     datePublished: "",
     dateModified: "",
@@ -174,8 +174,8 @@ export const ARTICLES: Record<string, Article> = {
   },
   "fr-legends-livery-codes": {
     slug: "fr-legends-livery-codes",
-    title: "FR Legends Livery Codes - 100+ Custom Car Designs (2026)",
-    description: "The full FR Legends livery code library, body codes, window codes, and how to apply them, updated for 2026.",
+    title: "FR Legends Livery Codes: Body and Window Designs",
+    description: "Understand FR Legends body and window code formats, enter shared livery designs and troubleshoot common import issues.",
     image: "https://frlegendmodapk.com/assets/images/og-image.jpg",
     datePublished: "",
     dateModified: "",
