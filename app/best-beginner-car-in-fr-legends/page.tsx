@@ -41,13 +41,7 @@ export default function BestBeginnerCarInFrLegendsPage() {
         mistakes. Heavy, high horsepower cars punish imprecise inputs with
         instant spins, while light cars slide wide and let you catch them.
       </p>
-      <p>
-        Beginners also need a cheap car to modify, because FR Legends locks
-        performance behind coins and the economy is slow. A cheap base car you
-        can fully upgrade beats an expensive showpiece you cannot afford to
-        tune. Short on cash? Our <Link href="/how-to-get-free-coins-in-fr-legends/">free coins guide</Link>{" "}
-        speeds up the grind.
-      </p>
+      
 
       <h2>The starter car situation, why the default car feels weak</h2>
       <p>
@@ -99,13 +93,7 @@ export default function BestBeginnerCarInFrLegendsPage() {
       </p>
 
       <h3>BMW E30, the predictable alternative</h3>
-      <p>
-        The E30 is heavier than the Miata and the AE86, but it is also the most
-        predictable car on this list. Slides build smoothly, transitions are
-        calm, and it forgives clumsy throttle work, so if twitchy lightweight
-        cars frustrate you, this is your answer. Fans of the platform will find
-        more in our <Link href="/fr-legends-bmw-drift-mods/">BMW drift mods collection</Link>.
-      </p>
+      
 
       <h3>The stock car, free and honest</h3>
       <p>
@@ -145,16 +133,7 @@ export default function BestBeginnerCarInFrLegendsPage() {
           the car itself.
         </li>
       </ol>
-      <p>
-        One warning: never buy the most expensive cars early. The Supra and the
-        RX-7 are amazing later, our <Link href="/fr-legends-supra-mod-apk/">Supra mod page</Link>{" "}
-        and our <Link href="/fr-legends-rx7-mod-livery-codes/">RX-7 mod livery codes</Link>{" "}
-        are worth visiting when you are ready, but in week one they are coin
-        traps. The same logic applies to modified APKs, only grab modded
-        versions once you understand the base game, and keep our{" "}
-        <Link href="/fr-legends-mod-apk-old-versions/">old versions page</Link>{" "}
-        bookmarked in case an update breaks your save.
-      </p>
+      
 
       <h2>Upgrade order for a beginner</h2>
       <p>
@@ -340,15 +319,7 @@ export default function BestBeginnerCarInFrLegendsPage() {
         speeds things up.
       </p>
 
-      <p>
-        Your first car will not be your last, and that is how it should be.
-        Start on the Miata, learn the physics, then graduate to the S15 and
-        work your way up the <Link href="/fr-legends-car-tier-list/">car tier list</Link>.
-        If you are playing a modded build, grab the latest version from the{" "}
-        <Link href="/download/">download page</Link>, and when you want more
-        reads, browse the <Link href="/blog/">blog</Link> or the{" "}
-        <Link href="/">home page</Link> for the rest of our FR Legends guides.
-      </p>
+      
     </ArticlePage>
   );
 }
