@@ -1,9 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Sora } from "next/font/google";
+import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
-import { LOGO, SITE_DESCRIPTION, SITE_NAME, SITE_URL, SOCIAL } from "@/lib/site";
+import { LOGO, OG_IMAGE, SITE_DESCRIPTION, SITE_NAME, SITE_URL, SOCIAL } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -22,16 +23,14 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: {
-    default: SITE_NAME,
-    template: `%s | ${SITE_NAME}`,
-  },
+  title: { default: SITE_NAME, template: `%s | ${SITE_NAME}` },
   description: SITE_DESCRIPTION,
   openGraph: {
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
     url: SITE_URL,
     siteName: SITE_NAME,
+    images: [OG_IMAGE],
   },
   icons: {
     icon: [
@@ -40,18 +39,11 @@ export const metadata: Metadata = {
     ],
     apple: [{ url: "/assets/icons/apple-touch-icon.png" }],
   },
-  verification: {
-    google: "8ab4zqcqKMzptuXt7HOZMnTZrLISWrMkCriEVYTcPAw",
-  },
-  other: {
-    "google-adsense-account": "ca-pub-5037261915250191",
-  },
+  verification: { google: "8ab4zqcqKMzptuXt7HOZMnTZrLISWrMkCriEVYTcPAw" },
+  other: { "google-adsense-account": "ca-pub-5037261915250191" },
 };
 
-export const viewport: Viewport = {
-  width: "device-width",
-  initialScale: 1,
-};
+export const viewport: Viewport = { width: "device-width", initialScale: 1 };
 
 const organizationJsonLd = {
   "@context": "https://schema.org",
@@ -74,34 +66,30 @@ const websiteJsonLd = {
   publisher: { "@id": `${SITE_URL}/#organization` },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${inter.variable} ${sora.variable}`}>
-      <head>
-        <script
+      <body>
+        <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-6Z9V4BC4PL"
+          strategy="afterInteractive"
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-6Z9V4BC4PL');
-            `,
-          }}
+        <Script id="google-analytics" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-6Z9V4BC4PL');
+        `}</Script>
+        <Script
+          async
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5037261915250191"
         />
-      </head>
-      <body>
         <JsonLd data={organizationJsonLd} />
         <JsonLd data={websiteJsonLd} />
-        <a className="skip-link" href="#main">
-          Skip to content
-        </a>
+        <a className="skip-link" href="#main">Skip to content</a>
         <Header />
         <main id="main">{children}</main>
         <Footer />
