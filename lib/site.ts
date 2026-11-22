@@ -61,8 +61,6 @@ export const BLOG_POST_SLUGS = [
   "best-beginner-car-in-fr-legends",
   "fr-legends-tracks-list",
   "fr-legends-battle-mode-guide",
-  "how-to-get-free-coins-in-fr-legends",
-  "fr-legends-vs-fr-legends-2",
   "how-fr-legends-livery-codes-work",
   "best-anime-jdm-livery-codes",
   "fr-legends-controller-support",
