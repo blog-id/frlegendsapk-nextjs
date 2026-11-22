@@ -12,12 +12,12 @@ export const OFFICIAL_ANDROID_URL = "https://play.google.com/store/apps/details?
 export const OFFICIAL_IOS_URL = "https://apps.apple.com/pk/app/fr-legends/id1435740083";
 export const OFFICIAL_DEVELOPER_URL = "https://twinturbogames.com/";
 export const NAV_LINKS = [
-  { href: "/", label: "Home" },
-  { href: "/how-to-drift-in-fr-legends/", label: "Drifting" },
-  { href: "/fr-legends-best-drift-settings-tuning-guide/", label: "Tuning" },
-  { href: "/fr-legends-cars-list/", label: "Cars" },
-  { href: "/fr-legends-livery-codes/", label: "Livery Codes" },
-  { href: "/blog/", label: "Guides" },
+  { href: "/", label: "Home", cta: false },
+  { href: "/how-to-drift-in-fr-legends/", label: "Drifting", cta: false },
+  { href: "/fr-legends-best-drift-settings-tuning-guide/", label: "Tuning", cta: false },
+  { href: "/fr-legends-cars-list/", label: "Cars", cta: false },
+  { href: "/fr-legends-livery-codes/", label: "Livery Codes", cta: false },
+  { href: "/blog/", label: "Guides", cta: false },
   { href: "/download/", label: "Get the Game", cta: true },
 ];
 export const OFFICIAL_LINKS = [
